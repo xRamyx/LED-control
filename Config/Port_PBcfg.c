@@ -1,0 +1,66 @@
+ /******************************************************************************
+ *
+ * Module: Port
+ *
+ * File Name: Port_PBcfg.c
+ *
+ * Description: Post Build Configuration Source file for TM4C123GH6PM Microcontroller - Port Driver
+ *
+ * Author: Ramy Mohamed Ahmed Mohamed
+ ******************************************************************************/
+
+#include "Port.h"
+
+/* PB structure used with Port_Init API */
+const Port_ConfigType Port_Configuration = {
+                                             /*PORTA Configurations*/
+                                             PORTA,PIN0,PORTA_PIN0_DIRECTION,PORTA_PIN0_RESISTOR,PORTA_PIN0_INIT_VALUE,PORTA_PIN0_MODE,
+											 PORTA,PIN1,PORTA_PIN1_DIRECTION,PORTA_PIN1_RESISTOR,PORTA_PIN1_INIT_VALUE,PORTA_PIN1_MODE,
+                                             PORTA,PIN2,PORTA_PIN2_DIRECTION,PORTA_PIN2_RESISTOR,PORTA_PIN2_INIT_VALUE,PORTA_PIN2_MODE,
+                                             PORTA,PIN3,PORTA_PIN3_DIRECTION,PORTA_PIN3_RESISTOR,PORTA_PIN3_INIT_VALUE,PORTA_PIN3_MODE,
+                                             PORTA,PIN4,PORTA_PIN4_DIRECTION,PORTA_PIN4_RESISTOR,PORTA_PIN4_INIT_VALUE,PORTA_PIN4_MODE,
+                                             PORTA,PIN5,PORTA_PIN5_DIRECTION,PORTA_PIN5_RESISTOR,PORTA_PIN5_INIT_VALUE,PORTA_PIN5_MODE,
+                                             PORTA,PIN6,PORTA_PIN6_DIRECTION,PORTA_PIN6_RESISTOR,PORTA_PIN6_INIT_VALUE,PORTA_PIN6_MODE,
+                                             PORTA,PIN7,PORTA_PIN7_DIRECTION,PORTA_PIN7_RESISTOR,PORTA_PIN7_INIT_VALUE,PORTA_PIN7_MODE,
+                                             /*PORTB Configurations*/
+                                             PORTB,PIN0,PORTB_PIN0_DIRECTION,PORTB_PIN0_RESISTOR,PORTB_PIN0_INIT_VALUE,PORTB_PIN0_MODE,
+											 PORTB,PIN1,PORTB_PIN1_DIRECTION,PORTB_PIN1_RESISTOR,PORTB_PIN1_INIT_VALUE,PORTB_PIN1_MODE,
+                                             PORTB,PIN2,PORTB_PIN2_DIRECTION,PORTB_PIN2_RESISTOR,PORTB_PIN2_INIT_VALUE,PORTB_PIN2_MODE,
+                                             PORTB,PIN3,PORTB_PIN3_DIRECTION,PORTB_PIN3_RESISTOR,PORTB_PIN3_INIT_VALUE,PORTB_PIN3_MODE,
+                                             PORTB,PIN4,PORTB_PIN4_DIRECTION,PORTB_PIN4_RESISTOR,PORTB_PIN4_INIT_VALUE,PORTB_PIN4_MODE,
+                                             PORTB,PIN5,PORTB_PIN5_DIRECTION,PORTB_PIN5_RESISTOR,PORTB_PIN5_INIT_VALUE,PORTB_PIN5_MODE,
+                                             PORTB,PIN6,PORTB_PIN6_DIRECTION,PORTB_PIN6_RESISTOR,PORTB_PIN6_INIT_VALUE,PORTB_PIN6_MODE,
+                                             PORTB,PIN7,PORTB_PIN7_DIRECTION,PORTB_PIN7_RESISTOR,PORTB_PIN7_INIT_VALUE,PORTB_PIN7_MODE,
+                                             /*PORTC Configurations*/
+                                             PORTC,PIN0,PORTC_PIN0_DIRECTION,PORTC_PIN0_RESISTOR,PORTC_PIN0_INIT_VALUE,PORTC_PIN0_MODE,
+											 PORTC,PIN1,PORTC_PIN1_DIRECTION,PORTC_PIN1_RESISTOR,PORTC_PIN1_INIT_VALUE,PORTC_PIN1_MODE,
+                                             PORTC,PIN2,PORTC_PIN2_DIRECTION,PORTC_PIN2_RESISTOR,PORTC_PIN2_INIT_VALUE,PORTC_PIN2_MODE,
+                                             PORTC,PIN3,PORTC_PIN3_DIRECTION,PORTC_PIN3_RESISTOR,PORTC_PIN3_INIT_VALUE,PORTC_PIN3_MODE,
+                                             PORTC,PIN4,PORTC_PIN4_DIRECTION,PORTC_PIN4_RESISTOR,PORTC_PIN4_INIT_VALUE,PORTC_PIN4_MODE,
+                                             PORTC,PIN5,PORTC_PIN5_DIRECTION,PORTC_PIN5_RESISTOR,PORTC_PIN5_INIT_VALUE,PORTC_PIN5_MODE,
+                                             PORTC,PIN6,PORTC_PIN6_DIRECTION,PORTC_PIN6_RESISTOR,PORTC_PIN6_INIT_VALUE,PORTC_PIN6_MODE,
+                                             PORTC,PIN7,PORTC_PIN7_DIRECTION,PORTC_PIN7_RESISTOR,PORTC_PIN7_INIT_VALUE,PORTC_PIN7_MODE,
+                                             /*PORTD Configurations*/
+                                             PORTD,PIN0,PORTD_PIN0_DIRECTION,PORTD_PIN0_RESISTOR,PORTD_PIN0_INIT_VALUE,PORTD_PIN0_MODE,
+											 PORTD,PIN1,PORTD_PIN1_DIRECTION,PORTD_PIN1_RESISTOR,PORTD_PIN1_INIT_VALUE,PORTD_PIN1_MODE,
+                                             PORTD,PIN2,PORTD_PIN2_DIRECTION,PORTD_PIN2_RESISTOR,PORTD_PIN2_INIT_VALUE,PORTD_PIN2_MODE,
+                                             PORTD,PIN3,PORTD_PIN3_DIRECTION,PORTD_PIN3_RESISTOR,PORTD_PIN3_INIT_VALUE,PORTD_PIN3_MODE,
+                                             PORTD,PIN4,PORTD_PIN4_DIRECTION,PORTD_PIN4_RESISTOR,PORTD_PIN4_INIT_VALUE,PORTD_PIN4_MODE,
+                                             PORTD,PIN5,PORTD_PIN5_DIRECTION,PORTD_PIN5_RESISTOR,PORTD_PIN5_INIT_VALUE,PORTD_PIN5_MODE,
+                                             PORTD,PIN6,PORTD_PIN6_DIRECTION,PORTD_PIN6_RESISTOR,PORTD_PIN6_INIT_VALUE,PORTD_PIN6_MODE,
+                                             PORTD,PIN7,PORTD_PIN7_DIRECTION,PORTD_PIN7_RESISTOR,PORTD_PIN7_INIT_VALUE,PORTD_PIN7_MODE,
+                                             /*PORTE Configurations*/
+                                             PORTE,PIN0,PORTE_PIN0_DIRECTION,PORTE_PIN0_RESISTOR,PORTE_PIN0_INIT_VALUE,PORTE_PIN0_MODE,
+											 PORTE,PIN1,PORTE_PIN1_DIRECTION,PORTE_PIN1_RESISTOR,PORTE_PIN1_INIT_VALUE,PORTE_PIN1_MODE,
+                                             PORTE,PIN2,PORTE_PIN2_DIRECTION,PORTE_PIN2_RESISTOR,PORTE_PIN2_INIT_VALUE,PORTE_PIN2_MODE,
+                                             PORTE,PIN3,PORTE_PIN3_DIRECTION,PORTE_PIN3_RESISTOR,PORTE_PIN3_INIT_VALUE,PORTE_PIN3_MODE,
+                                             PORTE,PIN4,PORTE_PIN4_DIRECTION,PORTE_PIN4_RESISTOR,PORTE_PIN4_INIT_VALUE,PORTE_PIN4_MODE,
+                                             PORTE,PIN5,PORTE_PIN5_DIRECTION,PORTE_PIN5_RESISTOR,PORTE_PIN5_INIT_VALUE,PORTE_PIN5_MODE,
+                                             /*PORTF Configurations*/
+                                             PORTF,PIN0,PORTF_PIN0_DIRECTION,PORTF_PIN0_RESISTOR,PORTF_PIN0_INIT_VALUE,PORTF_PIN0_MODE,
+											 PORTF,PIN1,PORTF_PIN1_DIRECTION,PORTF_PIN1_RESISTOR,PORTF_PIN1_INIT_VALUE,PORTF_PIN1_MODE,
+                                             PORTF,PIN2,PORTF_PIN2_DIRECTION,PORTF_PIN2_RESISTOR,PORTF_PIN2_INIT_VALUE,PORTF_PIN2_MODE,
+                                             PORTF,PIN3,PORTF_PIN3_DIRECTION,PORTF_PIN3_RESISTOR,PORTF_PIN3_INIT_VALUE,PORTF_PIN3_MODE,
+                                             PORTF,PIN4,PORTF_PIN4_DIRECTION,PORTF_PIN4_RESISTOR,PORTF_PIN4_INIT_VALUE,PORTF_PIN4_MODE
+
+				         };
