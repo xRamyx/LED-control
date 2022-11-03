@@ -1,7 +1,9 @@
 # LED-control
 
 <div align="center">
-![GitHub language used](https://img.shields.io/badge/Language-C%23-brightgreen)
+
+![GitHub language used](https://img.shields.io/badge/Language%3A-C-brightgreen)
+
 </div>
 
 ## About
